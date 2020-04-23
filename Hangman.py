@@ -161,7 +161,7 @@ for last_letter in range(essai):
     if mistakes <= 6:
         print(" ")
         print(" ")
-        last_letter = input("Entrez une lette : ")
+        last_letter = input("Enter a letter : ")
         
         if last_letter == "a" and wa == 0:
             mistakes = mistakes + 1
